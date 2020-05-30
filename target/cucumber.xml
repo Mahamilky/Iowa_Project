@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="2133.521853">
+<testcase classname="Employee file Rule Creation And Deletion Functionalities_RuleManagement" name="Validate user successfull login" time="26.876412">
+<system-out><![CDATA[Given Enter the Url to navigate webpage.....................................passed
+When User enter the email "Ide@mobiusservices.com"..........................passed
+And User enter the "Angular@123"............................................passed
+And user enter the valid captcha............................................passed
+And User click the Login button.............................................passed
+Then validate user enter into the Home page of Iowa"<validation>"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee file Rule Creation And Deletion Functionalities_RuleManagement" name="Validate RulesByDataElement module" time="9.967333">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When user click on master data..............................................passed
+And user click on rule under master data....................................passed
+And user click on Rules By Data Element under Master data...................passed
+Then user click on select report drop down..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee file Rule Creation And Deletion Functionalities_RuleManagement" name="VAlidate Employee File Elements Rule Creation - Rule Management" time="1145.930107">
+<system-out><![CDATA[Given User is on Rules by Data Element Page.................................passed
+When User select Employee File from Select Report dropdown..................passed
+And User create rule for Commcollege1 data element..........................passed
+And User create rule for SSN1 data element..................................passed
+And User create rule for LastName1 data element.............................passed
+And User create rule for FirstName1 data element............................passed
+And User create rule for MInit1 data element................................passed
+And User create rule for BirthDate1 data element............................passed
+And User create rule for Ethnicity1 data element............................passed
+And User create rule for AmInd1 data element................................passed
+And User create rule for Asian1 data element................................passed
+Then User create rule for Black1 data element...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee file Rule Creation And Deletion Functionalities_RuleManagement" name="Validate Employee File Remaining Elements Rule Creation - Rule Management" time="526.358103">
+<system-out><![CDATA[When User create rule for PacIsland1 data element...........................passed
+And User create rule for White1 data element................................passed
+And User create rule for RaceNotRept1 data element..........................passed
+And User create rule for Gender1 data element...............................passed
+And User create rule for Degree1 data element...............................passed
+And User create rule for Experience1 data element...........................passed
+And User create rule for Certified1 data element............................passed
+And User create rule for FTEArtScience1 data element........................passed
+Then User create rule for FTEVoc1 data element..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee file Rule Creation And Deletion Functionalities_RuleManagement" name="Validate Employee File Elements Rule Deletion - Rule Management" time="424.389898">
+<system-out><![CDATA[When User Select Employee Report from dropdown..............................passed
+And User deleting Rule of CommCollege1 element..............................passed
+And User deleting Rule of SSN1 element......................................passed
+And User deleting Rule of LastName1 element.................................passed
+And User deleting Rule of FirstName1 element................................passed
+And User deleting Rule of MInit1 element....................................passed
+And User deleting Rule of BirthDate1 element................................passed
+And User deleting Rule of Ethnicity1 element................................passed
+And User deleting Rule of AmInd1 element....................................passed
+And User deleting Rule of Asian1 element....................................passed
+And User deleting Rule of Black1 element....................................passed
+And User deleting Rule of PacIsland1 element................................passed
+And User deleting Rule of White1 element....................................passed
+And User deleting Rule of RaceNotRept1 element..............................passed
+And User deleting Rule of Gender1 element...................................passed
+And User deleting Rule of Degree1 element...................................passed
+And User deleting Rule of Experience1 element...............................passed
+And User deleting Rule of Certified1 element................................passed
+And User deleting Rule of FTEArtScience1 element............................passed
+Then User deleting Rule of FTEVoc1 element..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

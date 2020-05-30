@@ -1,0 +1,68 @@
+Feature: Employee file Rule Creation And Deletion Functionalities_RuleManagement
+
+  @Login
+  Scenario: Validate user successfull login                           # EmployeeFileRule.feature:4
+    Given Enter the Url to navigate webpage                           # A_LoginModule.enter_the_Url_to_navigate_webpage()
+    When User enter the email "Ide@mobiusservices.com"                # A_LoginModule.user_enter_the_email(String)
+    And User enter the "Angular@123"                                  # A_LoginModule.user_enter_the(String)
+    And user enter the valid captcha                                  # A_LoginModule.user_enter_the_valid_captcha()
+    And User click the Login button                                   # A_LoginModule.user_click_the_Login_button()
+    Then validate user enter into the Home page of Iowa"<validation>" # A_LoginModule.validate_user_enter_into_the_Home_page_of_Iowa(String)
+
+  @RuleByDataElement_RM
+  Scenario: Validate RulesByDataElement module                # EmployeeFileRule.feature:13
+    Given user is on home page                                # E_RuleByDataElement_RM.user_is_on_home_page()
+    When user click on master data                            # E_RuleByDataElement_RM.user_click_on_master_data()
+    And user click on rule under master data                  # E_RuleByDataElement_RM.user_click_on_rule_under_master_data()
+    And user click on Rules By Data Element under Master data # E_RuleByDataElement_RM.user_click_on_Rules_By_Data_Element_under_Master_data()
+    Then user click on select report drop down                # E_RuleByDataElement_RM.user_click_on_select_report_drop_down()
+
+  @EmployeeFileRuleCreation_RM
+  Scenario: VAlidate Employee File Elements Rule Creation - Rule Management # EmployeeFileRule.feature:21
+    Given User is on Rules by Data Element Page                             # EE2_EmployeeFileRuleCreation_RM.user_is_on_Rules_by_Data_Element_Page()
+    When User select Employee File from Select Report dropdown              # EE2_EmployeeFileRuleCreation_RM.user_select_Employee_File_from_Select_Report_dropdown()
+    And User create rule for Commcollege1 data element                      # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_Commcollege_data_element(int)
+    And User create rule for SSN1 data element                              # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_SSN_data_element(int)
+    And User create rule for LastName1 data element                         # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_LastName_data_element(int)
+    And User create rule for FirstName1 data element                        # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_FirstName_data_element(int)
+    And User create rule for MInit1 data element                            # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_MInit_data_element(int)
+    And User create rule for BirthDate1 data element                        # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_BirthDate_data_element(int)
+    And User create rule for Ethnicity1 data element                        # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_Ethnicity_data_element(int)
+    And User create rule for AmInd1 data element                            # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_AmInd_data_element(int)
+    And User create rule for Asian1 data element                            # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_Asian_data_element(int)
+    Then User create rule for Black1 data element                           # EE2_EmployeeFileRuleCreation_RM.user_create_rule_for_Black_data_element(int)
+
+  @EmployeeFileRuleCreation1_RM
+  Scenario: Validate Employee File Remaining Elements Rule Creation - Rule Management # EmployeeFileRule.feature:36
+    When User create rule for PacIsland1 data element                                 # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_PacIsland_data_element(int)
+    And User create rule for White1 data element                                      # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_White_data_element(int)
+    And User create rule for RaceNotRept1 data element                                # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_RaceNotRept_data_element(int)
+    And User create rule for Gender1 data element                                     # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_Gender_data_element(int)
+    And User create rule for Degree1 data element                                     # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_Degree_data_element(int)
+    And User create rule for Experience1 data element                                 # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_Experience_data_element(int)
+    And User create rule for Certified1 data element                                  # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_Certified_data_element(int)
+    And User create rule for FTEArtScience1 data element                              # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_FTEArtScience_data_element(int)
+    Then User create rule for FTEVoc1 data element                                    # EE3_EmployeeFileRuleCreation1_RM.user_create_rule_for_FTEVoc_data_element(int)
+
+  @EmployeeFileRuleDeletion_RM
+  Scenario: Validate Employee File Elements Rule Deletion - Rule Management # EmployeeFileRule.feature:48
+    When User Select Employee Report from dropdown                          # EE5_EmployeeFileRuleDeletion_RM.user_Select_Employee_Report_from_dropdown()
+    And User deleting Rule of CommCollege1 element                          # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_CommCollege_element(int)
+    And User deleting Rule of SSN1 element                                  # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_SSN_element(int)
+    And User deleting Rule of LastName1 element                             # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_LastName_element(int)
+    And User deleting Rule of FirstName1 element                            # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_FirstName_element(int)
+    And User deleting Rule of MInit1 element                                # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_MInit_element(int)
+    And User deleting Rule of BirthDate1 element                            # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_BirthDate_element(int)
+    And User deleting Rule of Ethnicity1 element                            # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Ethnicity_element(int)
+    And User deleting Rule of AmInd1 element                                # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_AmInd_element(int)
+    And User deleting Rule of Asian1 element                                # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Asian_element(int)
+    And User deleting Rule of Black1 element                                # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Black_element(int)
+    And User deleting Rule of PacIsland1 element                            # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_PacIsland_element(int)
+    And User deleting Rule of White1 element                                # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_White_element(int)
+    And User deleting Rule of RaceNotRept1 element                          # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_RaceNotRept_element(int)
+    And User deleting Rule of Gender1 element                               # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Gender_element(int)
+    And User deleting Rule of Degree1 element                               # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Degree_element(int)
+    And User deleting Rule of Experience1 element                           # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Experience_element(int)
+    And User deleting Rule of Certified1 element                            # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_Certified_element(int)
+    And User deleting Rule of FTEArtScience1 element                        # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_FTEArtScience_element(int)
+    Then User deleting Rule of FTEVoc1 element                              # EE5_EmployeeFileRuleDeletion_RM.user_deleting_Rule_of_FTEVoc_element(int)

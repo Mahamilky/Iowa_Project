@@ -1,0 +1,444 @@
+[DEBUG] 2020-05-31 00:46:07.341 [main] A_LoginModule - navigate to the url page
+[INFO ] 2020-05-31 00:46:17.548 [main] A_LoginModule - successfuly entered into login page
+[DEBUG] 2020-05-31 00:46:17.619 [main] A_LoginModule - user entering the valid email credential
+[INFO ] 2020-05-31 00:46:18.321 [main] A_LoginModule - user successfully entered email details
+[DEBUG] 2020-05-31 00:46:18.328 [main] A_LoginModule - user enter the valid password into textfield
+[INFO ] 2020-05-31 00:46:18.684 [main] A_LoginModule - user entered the password  successfully
+[DEBUG] 2020-05-31 00:46:18.687 [main] A_LoginModule - user enter the text which is displayed in captcha field
+[INFO ] 2020-05-31 00:46:27.801 [main] A_LoginModule - captcha textfield entered successfully
+[DEBUG] 2020-05-31 00:46:27.804 [main] A_LoginModule - user clicking on the login button
+[INFO ] 2020-05-31 00:46:27.933 [main] A_LoginModule - login button clicked successfully
+[DEBUG] 2020-05-31 00:46:27.937 [main] A_LoginModule - validating successfull entry into home page
+[INFO ] 2020-05-31 00:46:31.607 [main] A_LoginModule - user validating the Home text displaying in left corner of Homepage:   Home
+[INFO ] 2020-05-31 00:46:31.607 [main] A_LoginModule - user successfully entered into the homepage
+[INFO ] 2020-05-31 00:46:31.612 [main] E_RuleByDataElement_RM - user is on home page
+[DEBUG] 2020-05-31 00:46:31.612 [main] E_RuleByDataElement_RM - user clicking on Master Data module
+[INFO ] 2020-05-31 00:46:41.036 [main] E_RuleByDataElement_RM - user successfully clicked on master data 
+[DEBUG] 2020-05-31 00:46:41.038 [main] E_RuleByDataElement_RM - user clicking on rule option which is displaying under Master Data
+[INFO ] 2020-05-31 00:46:41.241 [main] E_RuleByDataElement_RM - user successfully clicked on rule 
+[DEBUG] 2020-05-31 00:46:41.245 [main] E_RuleByDataElement_RM - user clicking on rules by data element under rule 
+[INFO ] 2020-05-31 00:46:41.587 [main] E_RuleByDataElement_RM - user successfully clicked on RulesByDataElement 
+[INFO ] 2020-05-31 00:46:41.601 [main] EE2_EmployeeFileRuleCreation_RM - User is on Employee Report Rule Creation Page Under RulesByDataElement
+[DEBUG] 2020-05-31 00:46:41.603 [main] EE2_EmployeeFileRuleCreation_RM - User selecting Employee file from select report dropdown
+[INFO ] 2020-05-31 00:46:58.542 [main] EE2_EmployeeFileRuleCreation_RM - User swuccessfully selected Employee file from dropdown
+[DEBUG] 2020-05-31 00:46:58.544 [main] EE2_EmployeeFileRuleCreation_RM - User creating rule for CommCollege1 element
+[INFO ] 2020-05-31 00:46:58.737 [main] EE2_EmployeeFileRuleCreation_RM - User click on Commcollege1 rule edit icon 
+[INFO ] 2020-05-31 00:46:58.973 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:47:06.839 [main] EE2_EmployeeFileRuleCreation_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 00:47:12.163 [main] EE2_EmployeeFileRuleCreation_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 00:47:19.081 [main] EE2_EmployeeFileRuleCreation_RM - User selecting Data elemnt title under LookUp Data menu
+[INFO ] 2020-05-31 00:47:24.305 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 00:47:24.503 [main] EE2_EmployeeFileRuleCreation_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 00:47:31.080 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 00:47:41.255 [main] EE2_EmployeeFileRuleCreation_RM -  user click on Constraint Check extension bar in RI
+[INFO ] 2020-05-31 00:47:41.565 [main] EE2_EmployeeFileRuleCreation_RM - user entering Rule name in text field
+[INFO ] 2020-05-31 00:47:47.433 [main] EE2_EmployeeFileRuleCreation_RM - user selecting Data Element title Under Constraint Check menu
+[INFO ] 2020-05-31 00:47:52.639 [main] EE2_EmployeeFileRuleCreation_RM - user selecting condition under Constraint check menu 
+[INFO ] 2020-05-31 00:47:57.870 [main] EE2_EmployeeFileRuleCreation_RM - user selecting comparing report from dropDown
+[INFO ] 2020-05-31 00:48:05.067 [main] EE2_EmployeeFileRuleCreation_RM - user selecting comparing data element title from drop down
+[INFO ] 2020-05-31 00:48:10.311 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view  Move to summary
+[INFO ] 2020-05-31 00:48:10.447 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to save Constraint check rules
+[INFO ] 2020-05-31 00:48:10.647 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 00:48:15.784 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity tab to view Summary for CommCollege
+[DEBUG] 2020-05-31 00:48:16.007 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the Commcollege rule creation
+[INFO ] 2020-05-31 00:48:25.319 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created commCollege1 DataElemnt Rule
+[DEBUG] 2020-05-31 00:48:25.321 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for SSN1 DAtaElement
+[INFO ] 2020-05-31 00:48:25.321 [main] EE2_EmployeeFileRuleCreation_RM - user click on edit rule button of SSN1 for creating rule
+[INFO ] 2020-05-31 00:48:25.855 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:48:31.016 [main] EE2_EmployeeFileRuleCreation_RM - user click on length validation extension bar
+[INFO ] 2020-05-31 00:48:36.162 [main] EE2_EmployeeFileRuleCreation_RM - user selecting Condition for length validation of SSN1
+[INFO ] 2020-05-31 00:48:41.392 [main] EE2_EmployeeFileRuleCreation_RM - user entering Length under Length validation menu of SSN1
+[INFO ] 2020-05-31 00:48:51.612 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of SSN1
+[INFO ] 2020-05-31 00:48:51.779 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 00:48:56.947 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of SSN1
+[INFO ] 2020-05-31 00:48:57.796 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 00:48:57.956 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of SSN1
+[INFO ] 2020-05-31 00:48:58.122 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 00:49:03.243 [main] EE2_EmployeeFileRuleCreation_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 00:49:13.397 [main] EE2_EmployeeFileRuleCreation_RM - user select Accepted Value condition of SSN1
+[INFO ] 2020-05-31 00:49:18.625 [main] EE2_EmployeeFileRuleCreation_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 00:49:23.968 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 00:49:24.136 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to update Accepted value of SSN1
+[INFO ] 2020-05-31 00:49:24.364 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view Pattern Matching option
+[INFO ] 2020-05-31 00:49:29.492 [main] EE2_EmployeeFileRuleCreation_RM - user click on Pattern Matching Extension Bar under II
+[DEBUG] 2020-05-31 00:49:34.628 [main] EE2_EmployeeFileRuleCreation_RM - user enter pattern matching values1
+[INFO ] 2020-05-31 00:49:55.671 [main] EE2_EmployeeFileRuleCreation_RM - user successfully entered pattern matching values1
+[DEBUG] 2020-05-31 00:49:55.671 [main] EE2_EmployeeFileRuleCreation_RM - user enter pattern matching values2
+[INFO ] 2020-05-31 00:50:21.692 [main] EE2_EmployeeFileRuleCreation_RM - user successfully entered pattern matching values2
+[DEBUG] 2020-05-31 00:50:21.693 [main] EE2_EmployeeFileRuleCreation_RM - user enter pattern matching values3
+[INFO ] 2020-05-31 00:50:51.528 [main] EE2_EmployeeFileRuleCreation_RM - user successfully entered pattern matching values3
+[INFO ] 2020-05-31 00:50:51.528 [main] EE2_EmployeeFileRuleCreation_RM - user click on Query Builder extension bar
+[INFO ] 2020-05-31 00:50:56.724 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:51:09.205 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of SSN1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:51:14.346 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:51:22.090 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view Move to Referential
+[INFO ] 2020-05-31 00:51:22.288 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of SSN1
+[INFO ] 2020-05-31 00:51:22.442 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Referential Integrity button of SSN1
+[INFO ] 2020-05-31 00:51:27.577 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary
+[INFO ] 2020-05-31 00:51:32.850 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential integrity tab to view created rule of SSN1
+[DEBUG] 2020-05-31 00:51:33.088 [main] EE2_EmployeeFileRuleCreation_RM - user clicking on done button to complete the Rule creation of SSN1 Data Element
+[INFO ] 2020-05-31 00:51:42.442 [main] EE2_EmployeeFileRuleCreation_RM - user successfully completed rule creation of SSN1 data element
+[DEBUG] 2020-05-31 00:51:42.445 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for LastName1 Data Element
+[INFO ] 2020-05-31 00:51:42.445 [main] EE2_EmployeeFileRuleCreation_RM - user click on LastName1 Data element Rule edit button
+[INFO ] 2020-05-31 00:51:42.756 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:51:47.871 [main] EE2_EmployeeFileRuleCreation_RM - user click on length validation extension bar
+[INFO ] 2020-05-31 00:51:53.051 [main] EE2_EmployeeFileRuleCreation_RM - user selecting Condition for length validation of LastName1
+[INFO ] 2020-05-31 00:51:58.229 [main] EE2_EmployeeFileRuleCreation_RM - user entering Length under Length validation menu of LastName1
+[INFO ] 2020-05-31 00:52:08.373 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of LastName1
+[INFO ] 2020-05-31 00:52:08.678 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 00:52:13.868 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of LastName1
+[INFO ] 2020-05-31 00:52:14.299 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 00:52:14.614 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of LastName1
+[INFO ] 2020-05-31 00:52:14.823 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 00:52:20.163 [main] EE2_EmployeeFileRuleCreation_RM - user click on Query Builder extension bar
+[INFO ] 2020-05-31 00:52:30.438 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:52:36.258 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of LastName1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:52:41.459 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:52:46.956 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of LastName1
+[INFO ] 2020-05-31 00:52:52.224 [main] EE2_EmployeeFileRuleCreation_RM - user scrollUp the page to provide Query for warning in LastName1 Data Element
+[INFO ] 2020-05-31 00:52:57.332 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under query builder
+[INFO ] 2020-05-31 00:53:12.619 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:53:18.224 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of LastName1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:53:23.375 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:53:28.958 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of LastName1
+[INFO ] 2020-05-31 00:53:34.136 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view Move to Referential
+[INFO ] 2020-05-31 00:53:34.436 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Referential Integrity button of LastName1
+[INFO ] 2020-05-31 00:53:39.677 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary
+[INFO ] 2020-05-31 00:53:44.839 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential integrity tab to view created rule of LastName1
+[DEBUG] 2020-05-31 00:53:45.022 [main] EE2_EmployeeFileRuleCreation_RM - user clicking on done button to complete the Rule creation of LastName1 Data Element
+[INFO ] 2020-05-31 00:53:54.380 [main] EE2_EmployeeFileRuleCreation_RM - user successfully completed rule creation of LastName1 data element
+[DEBUG] 2020-05-31 00:53:54.382 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for FirstName1 Data Element
+[INFO ] 2020-05-31 00:53:54.383 [main] EE2_EmployeeFileRuleCreation_RM - user click on FirstName1 Data element Rule edit button
+[INFO ] 2020-05-31 00:53:54.962 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:54:00.130 [main] EE2_EmployeeFileRuleCreation_RM - user click on length validation extension bar
+[INFO ] 2020-05-31 00:54:05.275 [main] EE2_EmployeeFileRuleCreation_RM - user selecting Condition for length validation of FirstName1
+[INFO ] 2020-05-31 00:54:10.497 [main] EE2_EmployeeFileRuleCreation_RM - user entering Length under Length validation menu of FirstName1
+[INFO ] 2020-05-31 00:54:20.661 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of FirstName1
+[INFO ] 2020-05-31 00:54:21.056 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 00:54:26.272 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of FirstName1
+[INFO ] 2020-05-31 00:54:26.658 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 00:54:27.017 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of FirstName1
+[INFO ] 2020-05-31 00:54:27.180 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 00:54:32.336 [main] EE2_EmployeeFileRuleCreation_RM - user click on Query Builder extension bar
+[INFO ] 2020-05-31 00:54:37.538 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:54:43.291 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of FirstName1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:54:48.447 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:54:53.976 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of FirstName1
+[INFO ] 2020-05-31 00:54:59.113 [main] EE2_EmployeeFileRuleCreation_RM - user scrollUp the page to provide Query for warning in FirstName1 Data Element
+[INFO ] 2020-05-31 00:55:04.181 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under query builder
+[INFO ] 2020-05-31 00:55:14.489 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:55:20.041 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of LastName1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:55:25.175 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:55:30.594 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of FirstName1
+[INFO ] 2020-05-31 00:55:35.734 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view Move to Referential
+[INFO ] 2020-05-31 00:55:35.875 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Referential Integrity button of FirstName1
+[INFO ] 2020-05-31 00:55:41.072 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary
+[INFO ] 2020-05-31 00:55:46.215 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential integrity tab to view created rule of FirstName1
+[DEBUG] 2020-05-31 00:55:46.378 [main] EE2_EmployeeFileRuleCreation_RM - user clicking on done button to complete the Rule creation of FirstName1 Data Element
+[INFO ] 2020-05-31 00:55:55.642 [main] EE2_EmployeeFileRuleCreation_RM - user successfully completed rule creation of FirstName1 data element
+[DEBUG] 2020-05-31 00:55:55.644 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for MInit1 Data Element
+[INFO ] 2020-05-31 00:55:55.644 [main] EE2_EmployeeFileRuleCreation_RM - user click on MInit1 Data element Rule edit button
+[INFO ] 2020-05-31 00:55:56.087 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:56:01.237 [main] EE2_EmployeeFileRuleCreation_RM - user click on length validation extension bar
+[INFO ] 2020-05-31 00:56:06.373 [main] EE2_EmployeeFileRuleCreation_RM - user selecting Condition for length validation of MInit1
+[INFO ] 2020-05-31 00:56:11.553 [main] EE2_EmployeeFileRuleCreation_RM - user entering Length under Length validation menu of MInit1
+[INFO ] 2020-05-31 00:56:21.712 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of MInit1
+[INFO ] 2020-05-31 00:56:21.889 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 00:56:27.064 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of MInit1
+[INFO ] 2020-05-31 00:56:27.383 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 00:56:27.639 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of MInit1
+[INFO ] 2020-05-31 00:56:27.886 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 00:56:33.101 [main] EE2_EmployeeFileRuleCreation_RM - user click on Query Builder extension bar
+[INFO ] 2020-05-31 00:56:38.325 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:56:44.230 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of MInit1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:56:49.482 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:56:55.148 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of MInit1
+[INFO ] 2020-05-31 00:57:00.407 [main] EE2_EmployeeFileRuleCreation_RM - user scrollUp the page to provide Query for warning in MInit1 Data Element
+[INFO ] 2020-05-31 00:57:05.514 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under query builder
+[INFO ] 2020-05-31 00:57:21.199 [main] EE2_EmployeeFileRuleCreation_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 00:57:26.683 [main] EE2_EmployeeFileRuleCreation_RM - user click on Validate Query of MInit1 under Internal Integrity(II)
+[INFO ] 2020-05-31 00:57:31.813 [main] EE2_EmployeeFileRuleCreation_RM - user Entering Description in text area
+[INFO ] 2020-05-31 00:57:37.264 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button under Query builder of MInit1
+[INFO ] 2020-05-31 00:57:42.411 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view Move to Referential
+[INFO ] 2020-05-31 00:57:42.553 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Referential Integrity button of MInit1
+[INFO ] 2020-05-31 00:57:47.730 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary
+[INFO ] 2020-05-31 00:57:52.960 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential integrity tab to view created rule of MInit1
+[DEBUG] 2020-05-31 00:57:53.132 [main] EE2_EmployeeFileRuleCreation_RM - user clicking on done button to complete the Rule creation of MInit1 Data Element
+[INFO ] 2020-05-31 00:58:02.451 [main] EE2_EmployeeFileRuleCreation_RM - user successfully completed rule creation of MInit1 data element
+[DEBUG] 2020-05-31 00:58:02.454 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for BirthDate1 Data Element
+[INFO ] 2020-05-31 00:58:02.454 [main] EE2_EmployeeFileRuleCreation_RM - user click on BirthDate1 Data element Rule edit button
+[INFO ] 2020-05-31 00:58:03.055 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 00:58:08.629 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of BirthDate1
+[INFO ] 2020-05-31 00:58:08.809 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 00:58:13.960 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of BirthDate1
+[INFO ] 2020-05-31 00:58:14.275 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 00:58:14.485 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of BirthDate1
+[INFO ] 2020-05-31 00:58:14.676 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 00:58:19.892 [main] EE2_EmployeeFileRuleCreation_RM - User click on Accepted Range Extension Bar
+[INFO ] 2020-05-31 00:58:25.144 [main] EE2_EmployeeFileRuleCreation_RM - User selecting Year Month and date from Accepted Range From Field of Birth1 element 
+[INFO ] 2020-05-31 01:00:51.848 [main] EE2_EmployeeFileRuleCreation_RM - User selecting Year Month from Accepted Range To field of Birth1 element
+[INFO ] 2020-05-31 01:01:18.799 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to save details of Accepted range
+[INFO ] 2020-05-31 01:01:19.034 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:01:24.284 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:01:29.398 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity to view rule created for BirthDate1
+[DEBUG] 2020-05-31 01:01:29.563 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the BirthDate1 rule creation
+[INFO ] 2020-05-31 01:01:38.800 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created BirthDate1 DataElement Rule
+[DEBUG] 2020-05-31 01:01:38.803 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for Ethnicity1 Data Element
+[INFO ] 2020-05-31 01:01:38.803 [main] EE2_EmployeeFileRuleCreation_RM - User click on Ethnicity1 rule edit icon 
+[INFO ] 2020-05-31 01:01:39.170 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:01:44.287 [main] EE2_EmployeeFileRuleCreation_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 01:01:49.456 [main] EE2_EmployeeFileRuleCreation_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 01:01:55.782 [main] EE2_EmployeeFileRuleCreation_RM - User selecting Data element title under LookUp Data menu
+[INFO ] 2020-05-31 01:02:01.800 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 01:02:01.965 [main] EE2_EmployeeFileRuleCreation_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:02:07.158 [main] EE2_EmployeeFileRuleCreation_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:02:17.334 [main] EE2_EmployeeFileRuleCreation_RM - user select Accepted Value condition of Ethnicity1
+[INFO ] 2020-05-31 01:02:22.512 [main] EE2_EmployeeFileRuleCreation_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:02:27.747 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:02:27.865 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to update Accepted value of Ethnicity1
+[INFO ] 2020-05-31 01:02:28.044 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:02:33.285 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:02:38.529 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity to view rule created for Ethnicity1
+[DEBUG] 2020-05-31 01:02:38.703 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the Ethnicity1 rule creation
+[INFO ] 2020-05-31 01:02:47.954 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created Ethnicity1 DataElement Rule
+[DEBUG] 2020-05-31 01:02:47.956 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for AmInd1 Data Element
+[INFO ] 2020-05-31 01:02:47.957 [main] EE2_EmployeeFileRuleCreation_RM - user click on AmInd1 Data element Rule edit button
+[INFO ] 2020-05-31 01:02:48.251 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:02:53.357 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of AmInd1
+[INFO ] 2020-05-31 01:02:54.089 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:02:59.201 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of AmInd1
+[INFO ] 2020-05-31 01:02:59.984 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:03:00.160 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of AmInd1
+[INFO ] 2020-05-31 01:03:00.300 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:03:05.422 [main] EE2_EmployeeFileRuleCreation_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:03:15.586 [main] EE2_EmployeeFileRuleCreation_RM - user select Accepted Value condition of AmInd1
+[INFO ] 2020-05-31 01:03:20.747 [main] EE2_EmployeeFileRuleCreation_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:03:25.907 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:03:26.013 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to update Accepted value of AmInd1
+[INFO ] 2020-05-31 01:03:26.191 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:03:31.405 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:03:36.595 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity to view rule created for AmInd1
+[DEBUG] 2020-05-31 01:03:36.841 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the AmInd1 rule creation
+[INFO ] 2020-05-31 01:03:46.112 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created AmInd1 DataElement Rule
+[DEBUG] 2020-05-31 01:03:46.112 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for Asian1 Data Element
+[INFO ] 2020-05-31 01:03:46.112 [main] EE2_EmployeeFileRuleCreation_RM - user click on Asian1 Data element Rule edit button
+[INFO ] 2020-05-31 01:03:46.560 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:03:51.703 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of Asian1
+[INFO ] 2020-05-31 01:03:51.933 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:03:57.156 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of Asian1
+[INFO ] 2020-05-31 01:03:57.562 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:03:57.902 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of Asian1
+[INFO ] 2020-05-31 01:03:58.077 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:04:03.238 [main] EE2_EmployeeFileRuleCreation_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:04:13.477 [main] EE2_EmployeeFileRuleCreation_RM - user select Accepted Value condition of Asian1
+[INFO ] 2020-05-31 01:04:18.696 [main] EE2_EmployeeFileRuleCreation_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:04:23.941 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:04:24.114 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to update Accepted value of Asian1
+[INFO ] 2020-05-31 01:04:24.410 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:04:29.827 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:04:35.004 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity to view rule created for Asian1
+[DEBUG] 2020-05-31 01:04:35.213 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the Asian1 rule creation
+[INFO ] 2020-05-31 01:04:44.591 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created Asian1 DataElement Rule
+[DEBUG] 2020-05-31 01:04:44.594 [main] EE2_EmployeeFileRuleCreation_RM - user creating rule for Black1 Data Element
+[INFO ] 2020-05-31 01:04:44.594 [main] EE2_EmployeeFileRuleCreation_RM - user click on Black1 Data element Rule edit button
+[INFO ] 2020-05-31 01:04:44.979 [main] EE2_EmployeeFileRuleCreation_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:04:50.088 [main] EE2_EmployeeFileRuleCreation_RM - user click on Not Null extension bar of Black1
+[INFO ] 2020-05-31 01:04:50.317 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:04:55.490 [main] EE2_EmployeeFileRuleCreation_RM - user click on NotBlank extenstion bar of Black1
+[INFO ] 2020-05-31 01:04:55.880 [main] EE2_EmployeeFileRuleCreation_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:04:56.130 [main] EE2_EmployeeFileRuleCreation_RM - user click on update button to update the FileStatus rules of Black1
+[INFO ] 2020-05-31 01:04:56.465 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:05:06.621 [main] EE2_EmployeeFileRuleCreation_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:05:16.841 [main] EE2_EmployeeFileRuleCreation_RM - user select Accepted Value condition of Black1
+[INFO ] 2020-05-31 01:05:22.082 [main] EE2_EmployeeFileRuleCreation_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:05:27.229 [main] EE2_EmployeeFileRuleCreation_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:05:27.334 [main] EE2_EmployeeFileRuleCreation_RM - user click on save button to update Accepted value of Black1
+[INFO ] 2020-05-31 01:05:27.547 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:05:32.799 [main] EE2_EmployeeFileRuleCreation_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:05:37.981 [main] EE2_EmployeeFileRuleCreation_RM - user click on Referential Integrity to view rule created for Black1
+[DEBUG] 2020-05-31 01:05:38.144 [main] EE2_EmployeeFileRuleCreation_RM - user click on Done button to complete the Black1 rule creation
+[INFO ] 2020-05-31 01:05:47.560 [main] EE2_EmployeeFileRuleCreation_RM - user successfully created Black1 DataElement Rule
+[DEBUG] 2020-05-31 01:05:47.579 [main] EE3_EmployeeFileRuleCreation1_RM - user creating rule for PacIsland1 Data Element
+[INFO ] 2020-05-31 01:05:47.579 [main] EE3_EmployeeFileRuleCreation1_RM - user click on PacIsland Data element Rule edit button
+[INFO ] 2020-05-31 01:05:47.955 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:05:53.104 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Not Null extension bar of PacIsland1
+[INFO ] 2020-05-31 01:05:53.268 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:05:58.421 [main] EE3_EmployeeFileRuleCreation1_RM - user click on NotBlank extenstion bar of PacIsland1
+[INFO ] 2020-05-31 01:05:59.222 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:05:59.450 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to update the FileStatus rules of PacIsland1
+[INFO ] 2020-05-31 01:05:59.574 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:06:04.691 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:06:14.940 [main] EE3_EmployeeFileRuleCreation1_RM - user select Accepted Value condition of PacIsland1
+[INFO ] 2020-05-31 01:06:20.118 [main] EE3_EmployeeFileRuleCreation1_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:06:25.329 [main] EE3_EmployeeFileRuleCreation1_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:06:25.437 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button to update Accepted value of PacIsland1
+[INFO ] 2020-05-31 01:06:25.612 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:06:30.880 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:06:35.982 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for PacIsland1
+[DEBUG] 2020-05-31 01:06:36.250 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the PacIsland1 rule creation
+[INFO ] 2020-05-31 01:06:45.501 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created PacIsland1 DataElement Rule
+[DEBUG] 2020-05-31 01:06:45.505 [main] EE3_EmployeeFileRuleCreation1_RM - user creating rule for White1 DAtaElement
+[INFO ] 2020-05-31 01:06:45.505 [main] EE3_EmployeeFileRuleCreation1_RM - user click on edit rule button of White1 for creating rule
+[INFO ] 2020-05-31 01:06:45.974 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:06:51.123 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Not Null extension bar of White1
+[INFO ] 2020-05-31 01:06:51.891 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:06:57.007 [main] EE3_EmployeeFileRuleCreation1_RM - user click on NotBlank extenstion bar of White1
+[INFO ] 2020-05-31 01:06:57.844 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:06:57.975 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to update the FileStatus rules of White1
+[INFO ] 2020-05-31 01:06:58.103 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:07:03.267 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:07:13.497 [main] EE3_EmployeeFileRuleCreation1_RM - user select Accepted Value condition of White1
+[INFO ] 2020-05-31 01:07:18.669 [main] EE3_EmployeeFileRuleCreation1_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:07:23.831 [main] EE3_EmployeeFileRuleCreation1_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:07:23.986 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button to update Accepted value of White1
+[INFO ] 2020-05-31 01:07:24.151 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:07:29.383 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:07:34.516 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for White1
+[DEBUG] 2020-05-31 01:07:34.698 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the White1 rule creation
+[INFO ] 2020-05-31 01:07:43.959 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created White1 DataElement Rule
+[DEBUG] 2020-05-31 01:07:44.056 [main] EE3_EmployeeFileRuleCreation1_RM - user creating rule for RaceNotRept1 DAtaElement
+[INFO ] 2020-05-31 01:07:44.056 [main] EE3_EmployeeFileRuleCreation1_RM - user click on edit rule button of RaceNotRept1 for creating rule
+[INFO ] 2020-05-31 01:07:44.392 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:07:49.524 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Not Null extension bar of RaceNotRept1
+[INFO ] 2020-05-31 01:07:50.242 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not null checkBox
+[INFO ] 2020-05-31 01:07:55.371 [main] EE3_EmployeeFileRuleCreation1_RM - user click on NotBlank extenstion bar of RaceNotRept1
+[INFO ] 2020-05-31 01:07:56.198 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting not blank checkbox
+[INFO ] 2020-05-31 01:07:56.359 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to update the FileStatus rules RaceNotRept1
+[INFO ] 2020-05-31 01:07:56.488 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move to Internal Integrity(II) 
+[INFO ] 2020-05-31 01:08:01.593 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:08:11.843 [main] EE3_EmployeeFileRuleCreation1_RM - user select Accepted Value condition of RaceNotRept1
+[INFO ] 2020-05-31 01:08:17.020 [main] EE3_EmployeeFileRuleCreation1_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:08:22.182 [main] EE3_EmployeeFileRuleCreation1_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:08:22.287 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button to update Accepted value of RaceNotRept1
+[INFO ] 2020-05-31 01:08:22.437 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Query Builder extension bar
+[INFO ] 2020-05-31 01:08:27.646 [main] EE3_EmployeeFileRuleCreation1_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 01:08:36.233 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Validate Query of RaceNotRept1 under Internal Integrity(II)
+[INFO ] 2020-05-31 01:08:41.382 [main] EE3_EmployeeFileRuleCreation1_RM - user Entering Description in text area
+[INFO ] 2020-05-31 01:08:50.016 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button under Query builder of RaceNotRept1
+[INFO ] 2020-05-31 01:08:55.184 [main] EE3_EmployeeFileRuleCreation1_RM - user scrollUp the page to provide Query for warning in RaceNotRept1 Data Element
+[INFO ] 2020-05-31 01:09:00.260 [main] EE3_EmployeeFileRuleCreation1_RM - user click on warning button under query builder
+[INFO ] 2020-05-31 01:09:10.544 [main] EE3_EmployeeFileRuleCreation1_RM - user entering AND condition in textarea under Query Builder 
+[INFO ] 2020-05-31 01:09:17.049 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Validate Query of RaceNotRept1 under Internal Integrity(II)
+[INFO ] 2020-05-31 01:09:22.182 [main] EE3_EmployeeFileRuleCreation1_RM - user Entering Description in text area
+[INFO ] 2020-05-31 01:09:28.584 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button under Query builder of RaceNotRept1
+[INFO ] 2020-05-31 01:09:33.771 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view Move to Referential
+[INFO ] 2020-05-31 01:09:34.038 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move to Referential Integrity button of RaceNotRept1
+[INFO ] 2020-05-31 01:09:39.336 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary
+[INFO ] 2020-05-31 01:09:44.529 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential integrity tab to view created rule of RaceNotRept1
+[DEBUG] 2020-05-31 01:09:44.784 [main] EE3_EmployeeFileRuleCreation1_RM - user clicking on done button to complete the Rule creation of RaceNotRept1 Data Element
+[INFO ] 2020-05-31 01:09:54.170 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully completed rule creation of RaceNotRept1 data element
+[DEBUG] 2020-05-31 01:09:54.170 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for Gender1 element
+[INFO ] 2020-05-31 01:09:54.170 [main] EE3_EmployeeFileRuleCreation1_RM - User click on Gender1 rule edit icon 
+[INFO ] 2020-05-31 01:09:54.577 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:09:56.819 [main] EE3_EmployeeFileRuleCreation1_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 01:10:01.984 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 01:10:08.485 [main] EE3_EmployeeFileRuleCreation1_RM - User selecting Data elemnt title under LookUp Data menu
+[INFO ] 2020-05-31 01:10:13.842 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 01:10:14.094 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:10:19.399 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Accepted Value extension bar under Internal Integrity Menu
+[INFO ] 2020-05-31 01:10:29.654 [main] EE3_EmployeeFileRuleCreation1_RM - user select Accepted Value condition of Gender1
+[INFO ] 2020-05-31 01:10:34.831 [main] EE3_EmployeeFileRuleCreation1_RM - user entering value of Accepted Value under II
+[INFO ] 2020-05-31 01:10:39.960 [main] EE3_EmployeeFileRuleCreation1_RM - user click on warning button under Accepted Value
+[INFO ] 2020-05-31 01:10:40.099 [main] EE3_EmployeeFileRuleCreation1_RM - user click on save button to update Accepted value of Gender1
+[INFO ] 2020-05-31 01:10:40.352 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:10:45.616 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:10:50.754 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for Gender1
+[DEBUG] 2020-05-31 01:10:50.962 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the Gender1 rule creation
+[INFO ] 2020-05-31 01:11:00.279 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created Gender1 DataElement Rule
+[DEBUG] 2020-05-31 01:11:00.391 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for Degree1 element
+[INFO ] 2020-05-31 01:11:00.391 [main] EE3_EmployeeFileRuleCreation1_RM - User click on Degree1 rule edit icon 
+[INFO ] 2020-05-31 01:11:01.569 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:11:07.240 [main] EE3_EmployeeFileRuleCreation1_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 01:11:12.399 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 01:11:19.069 [main] EE3_EmployeeFileRuleCreation1_RM - User selecting Data elemnt title under LookUp Data menu
+[INFO ] 2020-05-31 01:11:24.256 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 01:11:24.506 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:11:29.715 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:11:34.923 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:11:40.173 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for Degree1
+[DEBUG] 2020-05-31 01:11:40.360 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the Degree1 rule creation
+[INFO ] 2020-05-31 01:11:49.700 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created Degree1 DataElement Rule
+[DEBUG] 2020-05-31 01:11:49.716 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for Experience1 element
+[INFO ] 2020-05-31 01:11:49.716 [main] EE3_EmployeeFileRuleCreation1_RM - User click on Experience1 rule edit icon 
+[INFO ] 2020-05-31 01:11:50.502 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:11:55.801 [main] EE3_EmployeeFileRuleCreation1_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 01:12:00.995 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 01:12:07.316 [main] EE3_EmployeeFileRuleCreation1_RM - User selecting Data elemnt title under LookUp Data menu
+[INFO ] 2020-05-31 01:12:12.483 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 01:12:12.670 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:12:17.897 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:12:23.103 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:12:28.225 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for Experience1
+[DEBUG] 2020-05-31 01:12:28.423 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the Experience1 rule creation
+[INFO ] 2020-05-31 01:12:37.766 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created Experience1 DataElement Rule
+[DEBUG] 2020-05-31 01:12:38.191 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for Certified1 element
+[INFO ] 2020-05-31 01:12:38.191 [main] EE3_EmployeeFileRuleCreation1_RM - User click on Certified1 rule edit icon 
+[INFO ] 2020-05-31 01:12:38.534 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:12:43.638 [main] EE3_EmployeeFileRuleCreation1_RM - user click on LookUp data extension bar to provide details
+[INFO ] 2020-05-31 01:12:48.842 [main] EE3_EmployeeFileRuleCreation1_RM - user selecting lookup data from dropdown menu
+[INFO ] 2020-05-31 01:12:55.170 [main] EE3_EmployeeFileRuleCreation1_RM - User selecting Data elemnt title under LookUp Data menu
+[INFO ] 2020-05-31 01:13:00.336 [main] EE3_EmployeeFileRuleCreation1_RM - user click on update button to finish LookUpData Menu
+[INFO ] 2020-05-31 01:13:01.453 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:13:07.464 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:13:12.608 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:13:17.810 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for Certified1
+[DEBUG] 2020-05-31 01:13:18.011 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the Certified1 rule creation
+[INFO ] 2020-05-31 01:13:27.383 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created Certified1 DataElement Rule
+[DEBUG] 2020-05-31 01:13:27.386 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for FTEArtScience1 element
+[INFO ] 2020-05-31 01:13:27.386 [main] EE3_EmployeeFileRuleCreation1_RM - User click on FTEArtScience1 rule edit icon 
+[INFO ] 2020-05-31 01:13:27.774 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:13:32.875 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:13:40.662 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:13:45.803 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:13:50.911 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for FTEArtScience1
+[DEBUG] 2020-05-31 01:13:51.086 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the FTEArtScience1 rule creation
+[INFO ] 2020-05-31 01:14:00.404 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created FTEArtScience1 DataElement Rule
+[DEBUG] 2020-05-31 01:14:00.406 [main] EE3_EmployeeFileRuleCreation1_RM - User creating rule for FTEVoc1 element
+[INFO ] 2020-05-31 01:14:00.406 [main] EE3_EmployeeFileRuleCreation1_RM - User click on FTEVoc1 rule edit icon 
+[INFO ] 2020-05-31 01:14:00.704 [main] EE3_EmployeeFileRuleCreation1_RM - user scroll down the page to view create rule page
+[INFO ] 2020-05-31 01:14:05.801 [main] EE3_EmployeeFileRuleCreation1_RM - user click on MoveToInternalIntegrity button
+[INFO ] 2020-05-31 01:14:11.953 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Referential Integrity(RI)
+[INFO ] 2020-05-31 01:14:17.087 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Move To Summary button
+[INFO ] 2020-05-31 01:14:22.228 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Referential Integrity to view rule created for FTEVoc1
+[DEBUG] 2020-05-31 01:14:22.384 [main] EE3_EmployeeFileRuleCreation1_RM - user click on Done button to complete the FTEVoc1 rule creation
+[INFO ] 2020-05-31 01:14:31.632 [main] EE3_EmployeeFileRuleCreation1_RM - user successfully created FTEVoc1 DataElement Rule
+[DEBUG] 2020-05-31 01:14:31.666 [main] EE5_EmployeeFileRuleDeletion_RM - User select Employee file from report dropdown
+[INFO ] 2020-05-31 01:16:33.072 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully selected employee file 
+[DEBUG] 2020-05-31 01:16:33.073 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of CommCollege1 element
+[INFO ] 2020-05-31 01:16:51.546 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted CommCollege1 element
+[DEBUG] 2020-05-31 01:16:51.548 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of SSN1 element
+[INFO ] 2020-05-31 01:17:07.778 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted SSN1 element
+[DEBUG] 2020-05-31 01:17:07.778 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of LastName1 element
+[INFO ] 2020-05-31 01:17:23.413 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted LastName1 element
+[DEBUG] 2020-05-31 01:17:23.413 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of FirstName1 element
+[INFO ] 2020-05-31 01:17:39.114 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted FirstName1 element
+[DEBUG] 2020-05-31 01:17:39.116 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of MInit1 element
+[INFO ] 2020-05-31 01:17:55.244 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted MInit1 element
+[DEBUG] 2020-05-31 01:17:55.244 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of BirthDate1 element
+[INFO ] 2020-05-31 01:18:11.455 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted BirthDate1 element
+[DEBUG] 2020-05-31 01:18:11.457 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Ethnicity1 element
+[INFO ] 2020-05-31 01:18:27.181 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Ethnicity1 element
+[DEBUG] 2020-05-31 01:18:27.184 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of AmInd1 element
+[INFO ] 2020-05-31 01:18:42.889 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted AmInd1 element
+[DEBUG] 2020-05-31 01:18:42.890 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Asian1 element
+[INFO ] 2020-05-31 01:18:58.519 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Asian1 element
+[DEBUG] 2020-05-31 01:18:58.521 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Black1 element
+[INFO ] 2020-05-31 01:19:14.271 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Black1 element
+[DEBUG] 2020-05-31 01:19:14.273 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of PacIsland1 element
+[INFO ] 2020-05-31 01:19:30.163 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted PacIsland1 element
+[DEBUG] 2020-05-31 01:19:30.167 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of White1 element
+[INFO ] 2020-05-31 01:19:45.851 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted White1 element
+[DEBUG] 2020-05-31 01:19:45.856 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of RaceNotRept1 element
+[INFO ] 2020-05-31 01:20:01.535 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted RaceNotRept1 element
+[DEBUG] 2020-05-31 01:20:01.538 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Gender1 element
+[INFO ] 2020-05-31 01:20:17.202 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Gender1 element
+[DEBUG] 2020-05-31 01:20:17.204 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Degree1 element
+[INFO ] 2020-05-31 01:20:33.322 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Degree1 element
+[DEBUG] 2020-05-31 01:20:33.324 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Experience1 element
+[INFO ] 2020-05-31 01:20:48.915 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Experience1 element
+[DEBUG] 2020-05-31 01:20:48.916 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of Certified1 element
+[INFO ] 2020-05-31 01:21:04.557 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted Certified1 element
+[DEBUG] 2020-05-31 01:21:04.559 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of FTEArtScience1 element
+[INFO ] 2020-05-31 01:21:20.367 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted FTEArtScience1 element
+[DEBUG] 2020-05-31 01:21:20.369 [main] EE5_EmployeeFileRuleDeletion_RM - User deleting rule of FTEVoc1 element
+[INFO ] 2020-05-31 01:21:36.103 [main] EE5_EmployeeFileRuleDeletion_RM - User successfully deleted FTEVoc1 element
